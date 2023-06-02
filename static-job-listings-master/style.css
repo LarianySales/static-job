@@ -1,0 +1,162 @@
+:root {
+
+    /* ### Primary */
+
+    --Desaturated-Dark-Cyan: hsl(180, 29%, 50%);
+
+    /* ### Neutral */
+    /* Background */
+    --Light-Grayish-Cyan: hsl(180, 52%, 96%);
+    /* (Filter Tablets) */
+    --Light-Grayish-Cyan: hsl(180, 31%, 95%);
+    --Dark-Grayish-Cyan: hsl(180, 8%, 52%);
+    --Very-Dark-Grayish-Cyan: hsl(180, 14%, 20%);
+    --sombra: #D9EDEE;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'League Spartan', sans-serif;
+    background-color: var(--Light-Grayish-Cyan);
+}
+
+header {
+    max-width: 1440px;
+    min-width: 375px;
+    background-color: var(--Desaturated-Dark-Cyan);
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.box {
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    /* background-color: white; */
+    /* width: 1000px;
+    padding: 30px;
+    border-radius: 5px; */
+    /* box-shadow: 0px 16px 28px 12px var(--sombra); */
+    margin-bottom: 10px;
+    flex-direction: column;
+}
+.linha1{
+    gap: 10px;
+
+    width: 1000px;
+    padding: 30px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0px 16px 28px 12px var(--sombra);
+
+}
+
+.itemRole {
+    display: flex;
+    gap: 8px;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+
+    color: var(--Dark-Grayish-Cyan);
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.novo {
+    background-color: #69BFB7;
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.featured {
+    background-color: var(--Very-Dark-Grayish-Cyan);
+    font-size: 15px;
+    font-weight: 700;
+    color: white;
+}
+
+.programa {
+    background: none;
+    color: var(--Desaturated-Dark-Cyan);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.persona a {
+    
+background: none;
+color: var(--Desaturated-Dark-Cyan);
+font-size: 20px;
+text-align: start;
+/* width: 400px; */
+font-weight: 700;
+margin-top: 20px;
+text-decoration: none;
+}
+.nov{
+    margin: 0 15px;
+}
+
+.linha1 {
+    display: flex;
+    margin-left: 10px;
+}
+input{
+ border: none;
+ background-color: var(--Light-Grayish-Cyan);
+ padding: 9px;
+ cursor: pointer;
+ border-radius: 5px;
+
+ font-size: 14px;
+ font-weight: 700;
+ color:var(--Desaturated-Dark-Cyan) ;
+ /* display: flex; */
+/* margin: 0 60px; */
+ 
+}
+.persona{
+    display: flex;
+   flex-direction: row;
+   gap: 100px;
+}
+input:hover{
+    background-color: var(--Desaturated-Dark-Cyan);
+    color: white;
+}
+
+.cicle {
+    margin-top: 7px;
+    height: 3px;
+    width: 3px;
+    border-radius: 50%;
+    background-color: var(--Dark-Grayish-Cyan);
+}
+
+button {
+    border: none;
+    border-radius: 20px;
+    padding: 7px;
+    cursor: pointer;
+}
+
+.box2 {
+    display: none;
+}
